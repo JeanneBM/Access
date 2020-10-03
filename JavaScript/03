@@ -1,0 +1,7 @@
+var slowoKodu1 = "are";
+var slowoKodu2 = "tubas";
+var slowoKodu3 = "unsafe";
+var slowoKodu4 = "?!";
+slowoKodu1[1] + slowoKodu2[1] + slowoKodu3[1] + slowoKodu4[1];
+// "run!"
+
