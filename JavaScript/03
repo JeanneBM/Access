@@ -5,3 +5,11 @@ var slowoKodu4 = "?!";
 slowoKodu1[1] + slowoKodu2[1] + slowoKodu3[1] + slowoKodu4[1];
 // "run!"
 
+var dlugiLancuch = "Moj dlugi lancuch jest dlugi";
+długiŁańcuch.slice(4, 17);
+// "dlugi lancuch"
+
+var dlugiLancuch = "Moj dlugi lancuch jest dlugi";
+dlugiLancuch.slice(4);
+// "dlugi lancuch jest dlugi"
+
