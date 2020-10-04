@@ -13,3 +13,17 @@ var dlugiLancuch = "Moj dlugi lancuch jest dlugi";
 dlugiLancuch.slice(4);
 // "dlugi lancuch jest dlugi"
 
+"Hej tam, co ty wyprawiasz?".toUpperCase();
+// "HEJ TAM, CO TY WYPRAWIASZ?"
+
+"hEj TAM, cO Ty WYprAwiASZ?".toLowerCase();
+// "hej tam, co ty wyprawiasz?"
+
+var glupiTekst = "hEj TAM, cO Ty WYprAwiASZ?";
+var tekstMaleLitery = glupiTekst.toLowerCase();
+var pierwszyZnak = tekstMaleLitery[0];
+var pierwszyZnakWielkaLitera = pierwszyZnak.toUpperCase();
+var resztaTekstu = tekstMaleLitery.slice(1);
+pierwszyZnakWielkaLitera + resztaTekstu;
+// "Hej tam, co ty wyprawiasz?"
+
