@@ -27,3 +27,67 @@ var resztaTekstu = tekstMaleLitery.slice(1);
 pierwszyZnakWielkaLitera + resztaTekstu;
 // "Hej tam, co ty wyprawiasz?"
 
+var glupiTekst = "hEj TAM, cO Ty WYprAwiASZ?";
+glupiTekst[0].toUpperCase() + glupiTekst.slice(1).toLowerCase();
+// "Hej tam, co ty wyprawiasz?"
+
+var mamyWeekend = false;
+var prysznicWziety = true;
+var jablkoWPlecaku = false;
+var pomaranczaWPlecaku = true;
+var trzebaIscDoSzkoly = !mamyWeekend && prysznicWziety && (jablkoWPlecaku || pomaranczaWPlecaku);
+trzebaIscDoSzkoly;
+// true
+
+var wzrost = 165;
+var limitWzrostu = 150;
+wzrost > limitWzrostu;
+// true
+
+var wzrost = 150;
+var limitWzrostu = 150;
+wzrost > limitWzrostu;
+// false
+
+var wzrost = 150;
+var limitWzrostu = 150;
+wzrost >= limitWzrostu;
+// true
+
+var wzrost = 150;
+var limitWzrostu = 120;
+wzrost < limitWzrostu;
+// false
+
+var wzrost = 120;
+var limitWzrostu = 120;
+wzrost <= limitWzrostu;
+// true
+
+var mojaTajnaLiczba = 5;
+var strzalA = 3;
+mojaTajnaLiczba === strzalA;
+// false
+
+var strzalB = 7;
+mojaTajnaLiczba === strzalB;
+// false
+
+var strzalC = 5;
+mojaTajnaLiczba === strzalC;
+// true
+
+var liczbaJakoTekst = "5";
+var prawdziwaLiczba = 5;
+liczbaJakoTekst === prawdziwaLiczba;
+// false
+
+liczbaJakoTekst == prawdziwaLiczba;
+// true
+
+0 == false;
+// true
+
+"false" == false;
+// false
+
