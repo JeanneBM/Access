@@ -138,3 +138,57 @@ dinozauryOrazLiczby[2];
 dinozauryOrazLiczby[2][0];
 // "triceratops"
 
+==============================================================================================================================================================
+
+var zwierzeta = [];
+zwierzeta.push("Kot");
+// 1
+zwierzeta.push("Pies");
+// 2
+zwierzeta.push("Lama");
+// 3
+zwierzeta;
+// ["Kot", "Pies", "Lama"]
+zwierzeta.length;
+// 3
+
+zwierzeta;
+// ["Kot", "Pies", "Lama"]
+zwierzeta[0];
+// "Kot"
+zwierzeta.unshift("Malpa");
+// 4
+zwierzeta;
+// ["Malpa", "Kot", "Pies", "Lama"]
+zwierzeta.unshift("Mis polarny");
+// 5
+zwierzeta;
+// ["Mis polarny", "Malpa", "Kot", "Pies", "Lama"]
+zwierzeta[0];
+// "Mis polarny"
+zwierzeta[2];
+// "Kot"
+
+zwierzeta;
+// ["Mis polarny", "Malpa", "Kot", "Pies", "Lama"]
+var ostatnieZwierze = zwierzeta.pop();
+ostatnieZwierze;
+// "Lama"
+zwierzeta;
+// ["Mis polarny", "Malpa", "Kot", "Pies"]
+zwierzeta.pop();
+// "Pies"
+zwierzeta;
+// ["Mis polarny", "Malpa", "Kot"]
+zwierzeta.unshift(ostatnieZwierze);
+// 4
+zwierzeta;
+// ["Lama", "Mis polarny", "Malpa", "Kot"]
+
+zwierzeta;
+// ["Lama", "Mis polarny", "Malpa", "Kot"]
+var pierwszeZwierze = zwierzeta.shift();
+pierwszeZwierze;
+// "Lama"
+zwierzeta;
+// ["Mis polarny", "Malpa", "Kot"]
