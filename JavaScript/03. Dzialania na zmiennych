@@ -192,3 +192,22 @@ pierwszeZwierze;
 // "Lama"
 zwierzeta;
 // ["Mis polarny", "Malpa", "Kot"]
+
+==============================================================================================================================================================
+
+var zwierzetaFutrzaste = ["Alpaka", "Lemur Katta", "Yeti"];
+var zwierzetaLuszczaste = ["Boa Dusiciel", "Godzilla"];
+var zwierzetaFutrzasteILuszczaste = zwierzetaFutrzaste.concat(zwierzetaLuszczaste);
+zwierzetaFutrzasteILuszczaste;
+// ["Alpaka", "Lemur Katta", "Yeti", "Boa Dusiciel", "Godzilla"]
+zwierzetaFutrzaste;
+// ["Alpaka", "Lemur Katta", "Yeti"]
+zwierzetaLuszczaste;
+// ["Boa Dusiciel", "Godzilla"]
+
+var zwierzetaFutrzaste = ["Alpaka", "Lemur Katta", "Yeti"];
+var zwierzetaLuszczaste = ["Boa Dusiciel", "Godzilla"];
+var zwierzetaPierzaste = ["Ara", "Dodo"];
+var wszystkieZwierzeta = zwierzetaFutrzaste.concat(zwierzetaLuszczaste, zwierzetaPierzaste);
+wszystkieZwierzeta;
+// ["Alpaka", "Lemur Katta", "Yeti", "Boa Dusiciel", "Godzilla", "Ara", "Dodo"]
