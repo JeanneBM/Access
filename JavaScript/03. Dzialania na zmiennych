@@ -211,3 +211,45 @@ var zwierzetaPierzaste = ["Ara", "Dodo"];
 var wszystkieZwierzeta = zwierzetaFutrzaste.concat(zwierzetaLuszczaste, zwierzetaPierzaste);
 wszystkieZwierzeta;
 // ["Alpaka", "Lemur Katta", "Yeti", "Boa Dusiciel", "Godzilla", "Ara", "Dodo"]
+
+==============================================================================================================================================================
+
+var kolory = ["czerwony", "zielony", "niebieski"];
+kolory.indexOf("niebieski");
+// 2
+kolory.indexOf("zielony");
+// 1
+
+kolory[2];
+// "niebieski"
+kolory.indexOf("niebieski");
+2
+
+kolory.indexOf("purpurowy");
+// -1
+
+var insekty = ["Pszczola", "Mrowka", "Pszczola", "Pszczola", "Mrowka"];
+insekty.indexOf("Pszczola");
+// 0
+
+var nudneZwierzeta = ["Malpa", "Kot", "Ryba", "Jaszczurka"];
+nudneZwierzeta.join();
+// "Malpa,Kot,Ryba,Jaszczurka"
+
+var nudneZwierzeta = ["Malpa", "Kot", "Ryba", "Jaszczurka"];
+nudneZwierzeta.join(" - ");
+// "Malpa - Kot - Ryba - Jaszczurka"
+nudneZwierzeta.join("*");
+// "Malpa*Kot*Ryba*Jaszczurka"
+nudneZwierzefta.join(" to nie ");
+// "Malpa to nie Kot to nie Ryba to nie Jaszczurka"
+
+var mojeImiona = ["Nicholas", "Andrew", "Maxwell", "Morgan"];
+mojeImiona.join(" ");
+// "Nicholas Andrew Maxwell Morgan"
+
+mojeImiona[0] + " " + mojeImiona[1] + " " + mojeImiona[2] + " " + mojeImiona[3];
+// "Nicholas Andrew Maxwell Morgan"
+
+==============================================================================================================================================================
+
