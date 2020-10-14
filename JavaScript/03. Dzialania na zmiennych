@@ -6,7 +6,7 @@ slowoKodu1[1] + slowoKodu2[1] + slowoKodu3[1] + slowoKodu4[1];
 // "run!"
 
 var dlugiLancuch = "Moj dlugi lancuch jest dlugi";
-długiŁańcuch.slice(4, 17);
+dlugiLańcuch.slice(4, 17);
 // "dlugi lancuch"
 
 var dlugiLancuch = "Moj dlugi lancuch jest dlugi";
@@ -252,4 +252,40 @@ mojeImiona[0] + " " + mojeImiona[1] + " " + mojeImiona[2] + " " + mojeImiona[3];
 // "Nicholas Andrew Maxwell Morgan"
 
 ==============================================================================================================================================================
+
+var punktyOrientacyjne = [];
+punktyOrientacyjne.push("Moj dom");
+punktyOrientacyjne.push("Sciezka przed domem");
+punktyOrientacyjne.push("Migajaca latarnia");
+punktyOrientacyjne.push("Cieknacy hydrant");
+punktyOrientacyjne.push("Straz pozarna");
+punktyOrientacyjne.push("Schronisko dla kotow");
+punktyOrientacyjne.push("Moja stara szkola");
+punktyOrientacyjne.push("Dom mojej przyjaciolki");
+
+punktyOrientacyjne.pop();
+// "Dom mojej przyjaciolki"
+punktyOrientacyjne.pop();
+// "Moja stara szkola"
+punktyOrientacyjne.pop();
+// "Schronisko dla kotow"
+punktyOrientacyjne.pop();
+// "Straz pozarna"
+punktyOrientacyjne.pop();
+// "Cieknacy hydrant"
+punktyOrientacyjne.pop();
+// "Migajaca latarnia"
+punktyOrientacyjne.pop();
+// "Sciezka przed domem"
+punktyOrientacyjne.pop();
+// "Moj dom"
+
+
+var losoweSlowa = ["Wybuch", "Jaskinia", "Ksiezniczka", "Pioro"];
+var losowyIndeks = Math.floor(Math.random() * 4);
+losoweSlowa[losowyIndeks];
+// "Jaskinia"
+
+losoweSlowa[Math.floor(Math.random() * 4)];
+// "Ksiezniczka"
 
